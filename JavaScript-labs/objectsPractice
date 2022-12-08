@@ -1,0 +1,13 @@
+class Vehicle {
+    constructor(color, make, model, fuelType) {
+        this.color = color;
+        this.make = make;
+        this.model = model;
+        this.fuelType = fuelType;
+    }
+    getSpecs() {
+        return `color${this.color}, make ${this.make}, model{this.model}, fuelType${this.fuelType}`
+
+    }
+}
+const imsTruck = new Vehicle('red', 'ford', 'ranger', );
